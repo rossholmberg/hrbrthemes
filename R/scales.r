@@ -7,7 +7,7 @@ is.formula <- function (x) { inherits(x, "formula") }
 #'
 #' The `_comma` ones set comma format for axis text and `expand=c(0,0)` (you need to set limits).
 #'
-#' The `_percent` ones set precent format for axis text and `expand=c(0,0)` (you need to set limits).
+#' The `_percent` ones set percent format for axis text and `expand=c(0,0)` (you need to set limits).
 #'
 #' @md
 #' @inheritParams ggplot2::scale_x_continuous
